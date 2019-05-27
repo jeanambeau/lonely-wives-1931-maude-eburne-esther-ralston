@@ -1,0 +1,18 @@
+
+        {
+          "name": "Lonely Wives 1931 Maude Eburne Esther Ralston Lite",
+          "short_name": "Lonely Wives 1931 Maude Eburne Esther Ralston",
+          "start_url": "index.html",
+          "display": "standalone",
+          "icons":[{"src": "data/images/header/logo.png"}],
+          "prefer_related_applications": true,
+          "related_applications": [
+            {
+              "platform": "play",
+              "id": "com.imabuilder.bighouse.lonelywives1931maudeeburneestherralston"
+            }
+          ],
+         "background_color": "#ffffff",
+         "theme_color": "#000000"
+        }
+                
