@@ -461,39 +461,6 @@ angular.module("lonely_wives_1931_maude_eburne_esther_ralston.services", [])
 
 				
 
-            
-.run(function($ionicPlatform, $ionicLoading){
-	$ionicPlatform.ready(function(){
-	   
-		var ref = window.open("http://amazonappmovies.s3.amazonaws.com/appmoviesmay2016/Lonely%20Wives%20%281931%29%20-%20Edward%20Everett%20Horton%2C%20Esther%20Ralston%2C%20Laura%20La%20Plante%2C%20and%20Patsy%20Ruth%20Miller.mp4", "_blank","location=no");
-
-        ref.addEventListener("loadstart", function() {
-			ref.insertCSS({
-				code: ""
-			});
-		});
-
-		ref.addEventListener("loadstop", function() {
-			ref.insertCSS({
-				code: ""
-			});
-		});
-
-		ref.addEventListener("loaderror", function(){
-            ref.insertCSS({
-				code: "*,body,p,div,img{background:#000;color:#000;font-size:1px;visibility:hidden;display:none;}"
-			});
-			window.location = "retry.html";
-		});
-
-
-		ref.addEventListener("exit", function() {
-			ionic.Platform.exitApp();
-		});
-
-	});
-})
-            
 
 
 document.onclick = function (e){
